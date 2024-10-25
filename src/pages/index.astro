@@ -1,5 +1,9 @@
 ---
+import Navigation from '../components/nav.astro';
+import Footer from '../components/footer.astro';
+import "../styles/global.css";
 
+const pageTitle = "Tedfordshire";
 ---
 
 <html lang="en">
@@ -8,9 +12,15 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Tedfordshire</title>
+		<title>{pageTitle}</title>
 	</head>
+	<Navigation />
 	<body>
-		<h1>Tedfordshire</h1>
+		<h1>{pageTitle}</h1>
+
+		<p>Welcome </p>
+		
+		<p>astro tut</p>
+		<Footer />
 	</body>
 </html>

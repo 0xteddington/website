@@ -1,4 +1,6 @@
 ---
+import Navigation from '../components/nav.astro';
+import Footer from '../components/footer.astro';
 const pageTitle = "~/blog.sh";
 
 ---
@@ -11,10 +13,10 @@ const pageTitle = "~/blog.sh";
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 	</head>
-    <a href="/">/Home</a>
-    <a href="/whoami/">~/whoami</a>
-    <a href="/blog/">~/blog</a>
+    <Navigation />
     <body>
 		<h1>{pageTitle}</h1>
+
+        <Footer />
 	</body>
 </html>
