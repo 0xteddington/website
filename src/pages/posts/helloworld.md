@@ -1,10 +1,15 @@
 ---
-title: "print: helloworld"
-pubDate: '2022-02-01'
-description: 'Welcome to tedfordshire'
-
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'My First Blog Post'
+pubDate: 2022-07-01
+description: 'This is the first post of my new Astro blog.'
+author: 'Astro Learner'
+image:
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
+tags: ["astro", "blogging", "learning in public"]
 ---
-![blog tiles](/blog/posts/2022/welcome/img/blog.jpg)
+
 
 This is my first blog and I thought that I would start to give back to the information technology community some of my experiences and knowledge. 
 
@@ -14,4 +19,3 @@ I'm not saying I am an all knowing deity by any means (in fact far from it), sim
 
 Any way enough rambling for now, stay tuned for future posts.
 
-[About Me](https://tedfordshire.co.uk/about/)
